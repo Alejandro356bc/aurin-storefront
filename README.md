@@ -1,57 +1,18 @@
-# Aurin — storefront prototype
 
-A React front end for the Aurin storefront design. Six routes, a working cart,
-and a three-step checkout. Nothing is connected to a backend: no payments are
-taken and no orders exist.
+# 💻 Tech Stack:
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=Alejandro356bc&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=Alejandro356bc&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=Alejandro356bc&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## Run it
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-```bash
-npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build into dist/
-npm run preview  # serve the production build
-```
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=Alejandro356bc&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-Node 18 or newer.
+---
+[![](https://komarev.com/ghpvc/?username=Alejandro356bc&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## What is here
-
-| Route | File | What works |
-|---|---|---|
-| `/` | `src/pages/Home.jsx` | Category filter on the featured row, newsletter sign-up |
-| `/collection` | `src/pages/Collection.jsx` | Category filter and price sort |
-| `/product/:slug` | `src/pages/Product.jsx` | Gallery, colour, size, quantity, add to bag, accordions |
-| `/cart` | `src/pages/Cart.jsx` | Quantity, remove, live totals, free-shipping progress |
-| `/checkout` | `src/pages/Checkout.jsx` | Three steps, country-dependent delivery and duty copy, PayPal or card |
-| `/about` | `src/pages/About.jsx` | Static |
-
-Cart state lives in `src/context/CartContext.jsx` and persists to
-`localStorage` under `aurin.cart.v1`.
-
-## What to replace before this is a real store
-
-- **Every image.** They are CSS gradient blocks labelled "product image".
-  Photograph your samples and swap them in.
-- **`src/data/products.js`.** Names, prices, copy and variants are samples in
-  the $40–80 band. This file is the whole catalogue.
-- **Anything in `[SQUARE BRACKETS]`** — support email, founder name, review
-  text and counts, the delivery date range.
-- **"Aurin".** Placeholder name. Clear it on IP India, USPTO, the .com and the
-  social handles first.
-
-## What this is not
-
-No backend, no payment gateway, no inventory, no orders, no analytics. The
-"Pay with PayPal" and card buttons are UI only. On the real store this design
-becomes a Shopify Liquid theme (Horizon or Dawn + Shopify CLI) so that
-checkout, apps, pixels and the theme editor keep working — this React app is
-the visual and interaction reference for that build.
-
-## Design decisions carried from the business plan
-
-- Prices $40–80, free shipping at $75 to push order value
-- Delivery stated honestly: 2–6 days US from New Jersey, 8–12 days tracked elsewhere
-- Duty paid by the seller; UK VAT shown inclusive at checkout
-- PayPal beside card everywhere a payment can start
-- No countdown timers, no invented scarcity, no fabricated reviews
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
